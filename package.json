@@ -2,10 +2,9 @@
   "name": "webpack-demo",
   "version": "1.0.0",
   "description": "Webpack is used to compile JavaScript modules.",
-  "private": true,
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,8 +20,5 @@
   "devDependencies": {
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2"
-  },
-  "dependencies": {
-    "lodash": "^4.17.21"
   }
 }
